@@ -1,0 +1,300 @@
+ INFO [main] 2013-10-12 15:02:38,335 CassandraDaemon.java (line 101) Logging initialized
+ INFO [main] 2013-10-12 15:02:38,352 CassandraDaemon.java (line 128) JVM vendor/version: Java HotSpot(TM) 64-Bit Server VM/1.7.0_40
+ INFO [main] 2013-10-12 15:02:38,352 CassandraDaemon.java (line 166) Heap size: 2044723200/2044723200
+ INFO [main] 2013-10-12 15:02:38,353 CassandraDaemon.java (line 167) Classpath: /var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../conf:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../build/classes/main:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../build/classes/thrift:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/antlr-3.2.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/apache-cassandra-1.2.5.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/apache-cassandra-clientutil-1.2.5.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/apache-cassandra-thrift-1.2.5.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/avro-1.4.0-fixes.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/avro-1.4.0-sources-fixes.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/commons-cli-1.1.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/commons-codec-1.2.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/commons-lang-2.6.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/compress-lzf-0.8.4.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/concurrentlinkedhashmap-lru-1.3.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/guava-13.0.1.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/high-scale-lib-1.1.2.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/jackson-core-asl-1.9.2.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/jackson-mapper-asl-1.9.2.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/jamm-0.2.5.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/jbcrypt-0.3m.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/jline-1.0.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/jna-4.0.0.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/json-simple-1.1.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/libthrift-0.7.0.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/log4j-1.2.16.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/lz4-1.1.0.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/metrics-core-2.0.3.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/netty-3.5.9.Final.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/servlet-api-2.5-20081211.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/slf4j-api-1.7.2.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/slf4j-log4j12-1.7.2.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/snakeyaml-1.6.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/snappy-java-1.0.4.1.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/snaptree-0.1.jar:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/bin/./../lib/jamm-0.2.5.jar
+ INFO [main] 2013-10-12 15:02:39,876 CLibrary.java (line 110) JNA mlockall successful
+ INFO [main] 2013-10-12 15:02:39,890 DatabaseDescriptor.java (line 132) Loading settings from file:/var/work/edede1/Cassandra_home/apache-cassandra-1.2.5/conf/cassandra.yaml
+ INFO [main] 2013-10-12 15:02:40,269 DatabaseDescriptor.java (line 150) Data files directories: [/var/work/edede1/cassandra/lib/data]
+ INFO [main] 2013-10-12 15:02:40,270 DatabaseDescriptor.java (line 151) Commit log directory: /var/work/edede1/cassandra/lib/commitlog
+ INFO [main] 2013-10-12 15:02:40,270 DatabaseDescriptor.java (line 191) DiskAccessMode 'auto' determined to be mmap, indexAccessMode is mmap
+ INFO [main] 2013-10-12 15:02:40,270 DatabaseDescriptor.java (line 205) disk_failure_policy is stop
+ INFO [main] 2013-10-12 15:02:40,276 DatabaseDescriptor.java (line 273) Global memtable threshold is enabled at 650MB
+ INFO [main] 2013-10-12 15:02:40,415 DatabaseDescriptor.java (line 404) Not using multi-threaded compaction
+ INFO [main] 2013-10-12 15:02:40,924 CacheService.java (line 111) Initializing key cache with capacity of 97 MBs.
+ INFO [main] 2013-10-12 15:02:40,933 CacheService.java (line 140) Scheduling key cache save to each 14400 seconds (going to save all keys).
+ INFO [main] 2013-10-12 15:02:40,934 CacheService.java (line 154) Initializing row cache with capacity of 0 MBs and provider org.apache.cassandra.cache.SerializingCacheProvider
+ INFO [main] 2013-10-12 15:02:40,940 CacheService.java (line 166) Scheduling row cache save to each 0 seconds (going to save all keys).
+ INFO [main] 2013-10-12 15:02:41,325 DatabaseDescriptor.java (line 538) Couldn't detect any schema definitions in local storage.
+ INFO [main] 2013-10-12 15:02:41,325 DatabaseDescriptor.java (line 543) To create keyspaces and column families, see 'help create keyspace' in the CLI, or set up a schema using the thrift system_* calls.
+ INFO [main] 2013-10-12 15:02:41,377 CommitLog.java (line 120) No commitlog files found; skipping replay
+ INFO [main] 2013-10-12 15:02:41,618 StorageService.java (line 450) Cassandra version: 1.2.5
+ INFO [main] 2013-10-12 15:02:41,618 StorageService.java (line 451) Thrift API version: 19.36.0
+ INFO [main] 2013-10-12 15:02:41,618 StorageService.java (line 452) CQL supported versions: 2.0.0,3.0.3 (default: 3.0.3)
+ INFO [main] 2013-10-12 15:02:41,658 StorageService.java (line 477) Loading persisted ring state
+ INFO [main] 2013-10-12 15:02:41,662 StorageService.java (line 558) Starting up server gossip
+ WARN [main] 2013-10-12 15:02:41,667 SystemTable.java (line 570) No host ID found, created 1bef6730-e246-43b7-878b-259f96c9f161 (Note: This should happen exactly once per node).
+ INFO [main] 2013-10-12 15:02:41,683 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-local@1448526883(361/361 serialized/live bytes, 15 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:41,687 Memtable.java (line 461) Writing Memtable-local@1448526883(361/361 serialized/live bytes, 15 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:41,774 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/local/system-local-ic-1-Data.db (350 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=50413)
+ INFO [main] 2013-10-12 15:02:41,830 MessagingService.java (line 452) Starting Messaging Service on port 7000
+ INFO [main] 2013-10-12 15:02:41,888 StorageService.java (line 715) Saved token not found. Using [-9223372036854775808] from configuration
+ INFO [main] 2013-10-12 15:02:41,889 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-local@1464299461(84/84 serialized/live bytes, 4 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:41,890 Memtable.java (line 461) Writing Memtable-local@1464299461(84/84 serialized/live bytes, 4 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:41,953 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/local/system-local-ic-2-Data.db (120 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=50688)
+ INFO [main] 2013-10-12 15:02:41,962 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-local@1019127471(51/51 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:41,963 Memtable.java (line 461) Writing Memtable-local@1019127471(51/51 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,019 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/local/system-local-ic-3-Data.db (110 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=50863)
+ INFO [main] 2013-10-12 15:02:42,036 StorageService.java (line 1330) Node node56/128.226.118.54 state jump to normal
+ INFO [main] 2013-10-12 15:02:42,037 StorageService.java (line 784) Startup completed! Now serving reads.
+ INFO [main] 2013-10-12 15:02:42,039 MigrationManager.java (line 214) Create new Keyspace: system_auth, rep strategy:SimpleStrategy{}, strategy_options: {replication_factor=1}, durable_writes: true
+ INFO [MigrationStage:1] 2013-10-12 15:02:42,094 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-schema_keyspaces@166527364(389/389 serialized/live bytes, 11 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,096 Memtable.java (line 461) Writing Memtable-schema_keyspaces@166527364(389/389 serialized/live bytes, 11 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,147 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/schema_keyspaces/system-schema_keyspaces-ic-1-Data.db (260 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=51104)
+ INFO [MigrationStage:1] 2013-10-12 15:02:42,148 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-schema_columnfamilies@1442702539(21775/21775 serialized/live bytes, 352 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,149 Memtable.java (line 461) Writing Memtable-schema_columnfamilies@1442702539(21775/21775 serialized/live bytes, 352 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,214 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-1-Data.db (4473 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=51104)
+ INFO [MigrationStage:1] 2013-10-12 15:02:42,216 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-schema_columns@237409308(21903/21903 serialized/live bytes, 332 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,217 Memtable.java (line 461) Writing Memtable-schema_columns@237409308(21903/21903 serialized/live bytes, 332 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,279 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/schema_columns/system-schema_columns-ic-1-Data.db (3771 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=51104)
+ INFO [main] 2013-10-12 15:02:42,387 MigrationManager.java (line 228) Create new ColumnFamily: org.apache.cassandra.config.CFMetaData@7d0d7127[cfId=473588ad-9c79-38be-8b59-e06c10456ba0,ksName=system_auth,cfName=users,cfType=Standard,comparator=org.apache.cassandra.db.marshal.CompositeType(org.apache.cassandra.db.marshal.UTF8Type),subcolumncomparator=<null>,comment=,readRepairChance=0.1,dclocalReadRepairChance=0.0,replicateOnWrite=true,gcGraceSeconds=7776000,defaultValidator=org.apache.cassandra.db.marshal.BytesType,keyValidator=org.apache.cassandra.db.marshal.UTF8Type,minCompactionThreshold=4,maxCompactionThreshold=32,keyAliases=[java.nio.HeapByteBuffer[pos=0 lim=4 cap=4]],columnAliases=[],valueAlias=<null>,column_metadata={java.nio.HeapByteBuffer[pos=0 lim=5 cap=5]=ColumnDefinition{name=7375706572, validator=org.apache.cassandra.db.marshal.BooleanType, index_type=null, index_name='null', component_index=0}},compactionStrategyClass=class org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy,compactionStrategyOptions={},compressionOptions={sstable_compression=org.apache.cassandra.io.compress.SnappyCompressor},bloomFilterFpChance=0.01,caching=KEYS_ONLY,populateIoCacheOnFlush=false]
+ INFO [MigrationStage:1] 2013-10-12 15:02:42,405 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-schema_columnfamilies@1674382680(1097/1097 serialized/live bytes, 20 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,406 Memtable.java (line 461) Writing Memtable-schema_columnfamilies@1674382680(1097/1097 serialized/live bytes, 20 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,471 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-2-Data.db (698 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=52888)
+ INFO [MigrationStage:1] 2013-10-12 15:02:42,473 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-schema_columns@1705927002(251/251 serialized/live bytes, 5 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,474 Memtable.java (line 461) Writing Memtable-schema_columns@1705927002(251/251 serialized/live bytes, 5 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:02:42,523 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/schema_columns/system-schema_columns-ic-2-Data.db (209 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=52888)
+ INFO [main] 2013-10-12 15:02:42,659 Server.java (line 135) Starting listening for CQL clients on /0.0.0.0:9042...
+ INFO [main] 2013-10-12 15:02:42,678 ThriftServer.java (line 90) Binding thrift service to /0.0.0.0:9160
+ INFO [main] 2013-10-12 15:02:42,710 ThriftServer.java (line 102) Using TFramedTransport with a max frame size of 15728640 bytes.
+ INFO [main] 2013-10-12 15:02:42,748 TServerCustomFactory.java (line 47) Using synchronous/threadpool thrift server on 0.0.0.0 : 9160
+ INFO [Thread-2] 2013-10-12 15:02:42,748 ThriftServer.java (line 110) Listening for thrift clients...
+ INFO [NonPeriodicTasks:1] 2013-10-12 15:02:52,615 Auth.java (line 215) Created default superuser 'cassandra'
+ INFO [GossipStage:1] 2013-10-12 15:03:02,601 Gossiper.java (line 805) Node /128.226.118.56 is now part of the cluster
+ INFO [GossipStage:1] 2013-10-12 15:03:02,607 Gossiper.java (line 771) InetAddress /128.226.118.56 is now UP
+ INFO [GossipStage:1] 2013-10-12 15:03:07,706 Gossiper.java (line 805) Node /128.226.118.57 is now part of the cluster
+ INFO [GossipStage:1] 2013-10-12 15:03:07,707 Gossiper.java (line 771) InetAddress /128.226.118.57 is now UP
+ INFO [GossipStage:1] 2013-10-12 15:03:20,799 Gossiper.java (line 805) Node /128.226.118.58 is now part of the cluster
+ INFO [GossipStage:1] 2013-10-12 15:03:20,800 Gossiper.java (line 771) InetAddress /128.226.118.58 is now UP
+ INFO [GossipStage:1] 2013-10-12 15:03:26,885 Gossiper.java (line 805) Node /128.226.118.59 is now part of the cluster
+ INFO [GossipStage:1] 2013-10-12 15:03:26,886 Gossiper.java (line 771) InetAddress /128.226.118.59 is now UP
+ INFO [MiscStage:1] 2013-10-12 15:03:33,779 StreamOut.java (line 114) Beginning transfer to /128.226.118.56
+ INFO [MiscStage:1] 2013-10-12 15:03:33,779 StreamOut.java (line 101) Flushing memtables for [CFS(Keyspace='system_auth', ColumnFamily='users')]...
+ INFO [MiscStage:1] 2013-10-12 15:03:33,780 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-users@1576550408(28/28 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:03:33,781 Memtable.java (line 461) Writing Memtable-users@1576550408(28/28 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:03:33,845 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system_auth/users/system_auth-users-ic-1-Data.db (64 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=58134)
+ INFO [MiscStage:1] 2013-10-12 15:03:33,847 StreamOut.java (line 159) Stream context metadata [], 1 sstables.
+ INFO [MiscStage:1] 2013-10-12 15:03:33,849 StreamOutSession.java (line 160) Streaming to /128.226.118.56
+ INFO [Streaming to /128.226.118.56:1] 2013-10-12 15:03:33,868 FileStreamTask.java (line 102) Finished streaming session to /128.226.118.56
+ INFO [GossipStage:1] 2013-10-12 15:03:33,910 Gossiper.java (line 805) Node /128.226.118.62 is now part of the cluster
+ INFO [GossipStage:1] 2013-10-12 15:03:33,911 Gossiper.java (line 771) InetAddress /128.226.118.62 is now UP
+ INFO [GossipStage:1] 2013-10-12 15:03:34,536 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-peers@2140023331(1020/1020 serialized/live bytes, 80 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:03:34,537 Memtable.java (line 461) Writing Memtable-peers@2140023331(1020/1020 serialized/live bytes, 80 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:03:34,606 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-1-Data.db (640 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=59235)
+ INFO [GossipStage:1] 2013-10-12 15:03:37,996 Gossiper.java (line 805) Node /128.226.118.63 is now part of the cluster
+ INFO [GossipStage:1] 2013-10-12 15:03:37,996 Gossiper.java (line 771) InetAddress /128.226.118.63 is now UP
+ INFO [MiscStage:1] 2013-10-12 15:03:38,879 StreamOut.java (line 114) Beginning transfer to /128.226.118.57
+ INFO [MiscStage:1] 2013-10-12 15:03:38,879 StreamOut.java (line 101) Flushing memtables for [CFS(Keyspace='system_auth', ColumnFamily='users')]...
+ INFO [MiscStage:1] 2013-10-12 15:03:38,880 StreamOut.java (line 159) Stream context metadata [], 1 sstables.
+ INFO [MiscStage:1] 2013-10-12 15:03:38,880 StreamOutSession.java (line 160) Streaming to /128.226.118.57
+ INFO [Streaming to /128.226.118.57:1] 2013-10-12 15:03:38,892 FileStreamTask.java (line 102) Finished streaming session to /128.226.118.57
+ INFO [GossipStage:1] 2013-10-12 15:03:40,671 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-peers@1652200617(496/496 serialized/live bytes, 32 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:03:40,672 Memtable.java (line 461) Writing Memtable-peers@1652200617(496/496 serialized/live bytes, 32 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:03:40,722 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-2-Data.db (427 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=61605)
+ INFO [MiscStage:1] 2013-10-12 15:03:53,999 StreamOut.java (line 114) Beginning transfer to /128.226.118.58
+ INFO [MiscStage:1] 2013-10-12 15:03:54,000 StreamOut.java (line 101) Flushing memtables for [CFS(Keyspace='system_auth', ColumnFamily='users')]...
+ INFO [MiscStage:1] 2013-10-12 15:03:54,000 StreamOut.java (line 159) Stream context metadata [], 1 sstables.
+ INFO [MiscStage:1] 2013-10-12 15:03:54,000 StreamOutSession.java (line 160) Streaming to /128.226.118.58
+ INFO [Streaming to /128.226.118.58:1] 2013-10-12 15:03:54,011 FileStreamTask.java (line 102) Finished streaming session to /128.226.118.58
+ INFO [GossipStage:1] 2013-10-12 15:03:55,795 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-peers@813793640(188/188 serialized/live bytes, 12 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:03:55,796 Memtable.java (line 461) Writing Memtable-peers@813793640(188/188 serialized/live bytes, 12 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:03:55,840 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-3-Data.db (195 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=62465)
+ INFO [MiscStage:1] 2013-10-12 15:04:00,100 StreamOut.java (line 114) Beginning transfer to /128.226.118.59
+ INFO [MiscStage:1] 2013-10-12 15:04:00,100 StreamOut.java (line 101) Flushing memtables for [CFS(Keyspace='system_auth', ColumnFamily='users')]...
+ INFO [MiscStage:1] 2013-10-12 15:04:00,102 StreamOut.java (line 159) Stream context metadata [/var/work/edede1/cassandra/lib/data/system_auth/users/system_auth-users-ic-1-Data.db sections=1 progress=0/64 - 0%], 1 sstables.
+ INFO [MiscStage:1] 2013-10-12 15:04:00,103 StreamOutSession.java (line 160) Streaming to /128.226.118.59
+ INFO [Streaming to /128.226.118.59:1] 2013-10-12 15:04:00,168 StreamReplyVerbHandler.java (line 44) Successfully sent /var/work/edede1/cassandra/lib/data/system_auth/users/system_auth-users-ic-1-Data.db to /128.226.118.59
+ INFO [Streaming to /128.226.118.59:1] 2013-10-12 15:04:00,169 FileStreamTask.java (line 102) Finished streaming session to /128.226.118.59
+ INFO [GossipStage:1] 2013-10-12 15:04:00,844 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-peers@92045361(50/50 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:04:00,845 Memtable.java (line 461) Writing Memtable-peers@92045361(50/50 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:04:00,888 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-4-Data.db (108 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=62638)
+ INFO [CompactionExecutor:3] 2013-10-12 15:04:00,898 CompactionTask.java (line 105) Compacting [SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-1-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-4-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-3-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-2-Data.db')]
+ INFO [CompactionExecutor:3] 2013-10-12 15:04:01,016 CompactionTask.java (line 262) Compacted 4 sstables to [/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-5,].  1,370 bytes to 804 (~58% of original) in 60ms = 0.012779MB/s.  16 total rows, 6 unique.  Row merge counts were {1:0, 2:3, 3:2, 4:1, }
+ INFO [MiscStage:1] 2013-10-12 15:04:06,185 StreamOut.java (line 114) Beginning transfer to /128.226.118.62
+ INFO [MiscStage:1] 2013-10-12 15:04:06,185 StreamOut.java (line 101) Flushing memtables for [CFS(Keyspace='system_auth', ColumnFamily='users')]...
+ INFO [MiscStage:1] 2013-10-12 15:04:06,186 StreamOut.java (line 159) Stream context metadata [], 1 sstables.
+ INFO [MiscStage:1] 2013-10-12 15:04:06,186 StreamOutSession.java (line 160) Streaming to /128.226.118.62
+ INFO [Streaming to /128.226.118.62:1] 2013-10-12 15:04:06,198 FileStreamTask.java (line 102) Finished streaming session to /128.226.118.62
+ INFO [GossipStage:1] 2013-10-12 15:04:06,990 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-peers@1937113832(50/50 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:04:06,991 Memtable.java (line 461) Writing Memtable-peers@1937113832(50/50 serialized/live bytes, 2 ops)
+ INFO [MemoryMeter:1] 2013-10-12 15:04:06,993 Memtable.java (line 238) CFS(Keyspace='system', ColumnFamily='peers') liveRatio is 40.0 (just-counted was 40.0).  calculation took 3ms for 2 columns
+ INFO [FlushWriter:1] 2013-10-12 15:04:07,061 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-6-Data.db (108 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=62811)
+ INFO [MiscStage:1] 2013-10-12 15:04:11,268 StreamOut.java (line 114) Beginning transfer to /128.226.118.63
+ INFO [MiscStage:1] 2013-10-12 15:04:11,268 StreamOut.java (line 101) Flushing memtables for [CFS(Keyspace='system_auth', ColumnFamily='users')]...
+ INFO [MiscStage:1] 2013-10-12 15:04:11,268 StreamOut.java (line 159) Stream context metadata [], 1 sstables.
+ INFO [MiscStage:1] 2013-10-12 15:04:11,268 StreamOutSession.java (line 160) Streaming to /128.226.118.63
+ INFO [Streaming to /128.226.118.63:1] 2013-10-12 15:04:11,279 FileStreamTask.java (line 102) Finished streaming session to /128.226.118.63
+ INFO [GossipStage:1] 2013-10-12 15:04:11,867 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-peers@820958874(50/2000 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:04:11,868 Memtable.java (line 461) Writing Memtable-peers@820958874(50/2000 serialized/live bytes, 2 ops)
+ INFO [FlushWriter:1] 2013-10-12 15:04:11,916 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-7-Data.db (109 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=62984)
+ INFO [GossipStage:1] 2013-10-12 15:05:01,149 Gossiper.java (line 805) Node /128.226.118.55 is now part of the cluster
+ INFO [GossipStage:1] 2013-10-12 15:05:01,149 Gossiper.java (line 771) InetAddress /128.226.118.55 is now UP
+ INFO [GossipStage:1] 2013-10-12 15:05:35,897 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-peers@720228521(236/9440 serialized/live bytes, 20 ops)
+ INFO [FlushWriter:2] 2013-10-12 15:05:35,899 Memtable.java (line 461) Writing Memtable-peers@720228521(236/9440 serialized/live bytes, 20 ops)
+ INFO [FlushWriter:2] 2013-10-12 15:05:35,948 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-8-Data.db (293 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=64366)
+ INFO [CompactionExecutor:9] 2013-10-12 15:05:35,950 CompactionTask.java (line 105) Compacting [SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-6-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-8-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-7-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-5-Data.db')]
+ INFO [CompactionExecutor:9] 2013-10-12 15:05:36,010 CompactionTask.java (line 262) Compacted 4 sstables to [/var/work/edede1/cassandra/lib/data/system/peers/system-peers-ic-9,].  1,314 bytes to 939 (~71% of original) in 58ms = 0.015440MB/s.  9 total rows, 7 unique.  Row merge counts were {1:5, 2:2, 3:0, 4:0, }
+ INFO [Thrift:1] 2013-10-12 15:06:33,525 MigrationManager.java (line 214) Create new Keyspace: LogData, rep strategy:SimpleStrategy{}, strategy_options: {replication_factor=1}, durable_writes: true
+ INFO [MigrationStage:1] 2013-10-12 15:06:33,535 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-schema_keyspaces@1283430790(138/138 serialized/live bytes, 3 ops)
+ INFO [FlushWriter:2] 2013-10-12 15:06:33,536 Memtable.java (line 461) Writing Memtable-schema_keyspaces@1283430790(138/138 serialized/live bytes, 3 ops)
+ INFO [FlushWriter:2] 2013-10-12 15:06:33,591 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/schema_keyspaces/system-schema_keyspaces-ic-2-Data.db (170 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=64603)
+ INFO [Thrift:1] 2013-10-12 15:06:33,688 MigrationManager.java (line 228) Create new ColumnFamily: org.apache.cassandra.config.CFMetaData@7b61257e[cfId=5c5e0d27-2f4f-3062-9a07-bf79d8b8e4e1,ksName=LogData,cfName=User,cfType=Standard,comparator=org.apache.cassandra.db.marshal.UTF8Type,subcolumncomparator=<null>,comment=,readRepairChance=0.1,dclocalReadRepairChance=0.0,replicateOnWrite=true,gcGraceSeconds=864000,defaultValidator=org.apache.cassandra.db.marshal.BytesType,keyValidator=org.apache.cassandra.db.marshal.BytesType,minCompactionThreshold=4,maxCompactionThreshold=32,keyAliases=[],columnAliases=[],valueAlias=<null>,column_metadata={},compactionStrategyClass=class org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy,compactionStrategyOptions={},compressionOptions={sstable_compression=org.apache.cassandra.io.compress.SnappyCompressor},bloomFilterFpChance=<null>,caching=KEYS_ONLY,populateIoCacheOnFlush=false]
+ INFO [MigrationStage:1] 2013-10-12 15:06:33,696 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-schema_columnfamilies@652522106(1018/1018 serialized/live bytes, 20 ops)
+ INFO [FlushWriter:2] 2013-10-12 15:06:33,697 Memtable.java (line 461) Writing Memtable-schema_columnfamilies@652522106(1018/1018 serialized/live bytes, 20 ops)
+ INFO [FlushWriter:2] 2013-10-12 15:06:33,747 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-3-Data.db (657 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=65981)
+ INFO [Thrift:1] 2013-10-12 15:06:33,774 MigrationManager.java (line 228) Create new ColumnFamily: org.apache.cassandra.config.CFMetaData@2ad8a85f[cfId=e3e88ebe-84e2-369c-80fa-f2095f87ba9e,ksName=LogData,cfName=output,cfType=Standard,comparator=org.apache.cassandra.db.marshal.UTF8Type,subcolumncomparator=<null>,comment=,readRepairChance=0.1,dclocalReadRepairChance=0.0,replicateOnWrite=true,gcGraceSeconds=864000,defaultValidator=org.apache.cassandra.db.marshal.BytesType,keyValidator=org.apache.cassandra.db.marshal.BytesType,minCompactionThreshold=4,maxCompactionThreshold=32,keyAliases=[],columnAliases=[],valueAlias=<null>,column_metadata={},compactionStrategyClass=class org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy,compactionStrategyOptions={},compressionOptions={sstable_compression=org.apache.cassandra.io.compress.SnappyCompressor},bloomFilterFpChance=<null>,caching=KEYS_ONLY,populateIoCacheOnFlush=false]
+ INFO [MigrationStage:1] 2013-10-12 15:06:33,781 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-schema_columnfamilies@556323439(1058/1058 serialized/live bytes, 20 ops)
+ INFO [FlushWriter:2] 2013-10-12 15:06:33,783 Memtable.java (line 461) Writing Memtable-schema_columnfamilies@556323439(1058/1058 serialized/live bytes, 20 ops)
+ INFO [FlushWriter:2] 2013-10-12 15:06:33,847 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-4-Data.db (667 bytes) for commitlog position ReplayPosition(segmentId=1381604561303, position=67540)
+ INFO [CompactionExecutor:14] 2013-10-12 15:06:33,849 CompactionTask.java (line 105) Compacting [SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-3-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-1-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-2-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-4-Data.db')]
+ INFO [CompactionExecutor:14] 2013-10-12 15:06:33,926 CompactionTask.java (line 262) Compacted 4 sstables to [/var/work/edede1/cassandra/lib/data/system/schema_columnfamilies/system-schema_columnfamilies-ic-5,].  6,495 bytes to 5,284 (~81% of original) in 76ms = 0.066305MB/s.  5 total rows, 4 unique.  Row merge counts were {1:3, 2:1, 3:0, 4:0, }
+ INFO [MemoryMeter:1] 2013-10-12 15:09:54,445 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 29.990180032733225 (just-counted was 29.990180032733225).  calculation took 169ms for 84 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:09:54,598 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 33.515151515151516 (just-counted was 33.515151515151516).  calculation took 50ms for 142 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:09:54,821 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 33.90131956397017 (just-counted was 33.90131956397017).  calculation took 38ms for 271 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:09:55,351 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 34.06453518422801 (just-counted was 34.06453518422801).  calculation took 33ms for 529 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:09:56,113 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 33.95048938731743 (just-counted was 33.83644359040686).  calculation took 70ms for 1050 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:09:57,355 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 34.32902214753696 (just-counted was 34.32902214753696).  calculation took 126ms for 2085 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:09:59,540 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 33.7742497060635 (just-counted was 33.21947726459005).  calculation took 297ms for 4256 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:10:03,105 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 33.35158504889164 (just-counted was 32.928920391719785).  calculation took 572ms for 8572 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:10:08,935 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 33.08684002676594 (just-counted was 32.82209500464023).  calculation took 1118ms for 17075 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:10:20,267 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 32.91920598900142 (just-counted was 32.7515719512369).  calculation took 2274ms for 34257 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:10:43,302 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 32.71563270527754 (just-counted was 32.512059421553666).  calculation took 4624ms for 68709 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:11:28,890 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 32.589851351802935 (just-counted was 32.46406999832833).  calculation took 9197ms for 136965 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:13:01,343 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 32.475807551705515 (just-counted was 32.361763751608095).  calculation took 18571ms for 274978 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:16:06,232 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 32.4179722372357 (just-counted was 32.360136922765896).  calculation took 37156ms for 550322 columns
+ INFO [MemoryMeter:1] 2013-10-12 15:22:28,528 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 32.369194025396 (just-counted was 32.3204158135563).  calculation took 75106ms for 1102456 columns
+ INFO [ScheduledTasks:1] 2013-10-12 15:29:19,008 GCInspector.java (line 119) GC for ConcurrentMarkSweep: 776 ms for 1 collections, 1610996512 used; max is 2044723200
+ WARN [ScheduledTasks:1] 2013-10-12 15:29:19,008 GCInspector.java (line 142) Heap is 0.7878799986227965 full.  You may need to reduce memtable and/or cache sizes.  Cassandra will now flush up to the two largest memtables to free up memory.  Adjust flush_largest_memtables_at threshold in cassandra.yaml if you don't want Cassandra to do this automatically
+ WARN [ScheduledTasks:1] 2013-10-12 15:29:19,009 StorageService.java (line 3594) Flushing CFS(Keyspace='LogData', ColumnFamily='User') to relieve memory pressure
+ INFO [ScheduledTasks:1] 2013-10-12 15:29:19,009 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-User@1026583209(46317855/35651584 serialized/live bytes, 1804109 ops)
+ INFO [FlushWriter:3] 2013-10-12 15:29:19,427 Memtable.java (line 461) Writing Memtable-User@1026583209(46317855/35651584 serialized/live bytes, 1804109 ops)
+ INFO [ScheduledTasks:1] 2013-10-12 15:29:24,431 GCInspector.java (line 119) GC for ParNew: 281 ms for 1 collections, 1359595672 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 15:29:26,433 GCInspector.java (line 119) GC for ParNew: 292 ms for 1 collections, 1432486904 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 15:29:28,436 GCInspector.java (line 119) GC for ParNew: 488 ms for 2 collections, 1486956640 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 15:29:32,440 GCInspector.java (line 119) GC for ParNew: 306 ms for 1 collections, 1661833432 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 15:29:34,442 GCInspector.java (line 119) GC for ParNew: 290 ms for 1 collections, 1730950888 used; max is 2044723200
+ INFO [FlushWriter:3] 2013-10-12 15:29:36,591 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/LogData/User/LogData-User-ic-1-Data.db (40335096 bytes) for commitlog position ReplayPosition(segmentId=1381604561309, position=1428873)
+ INFO [ScheduledTasks:1] 2013-10-12 15:29:38,699 GCInspector.java (line 119) GC for ConcurrentMarkSweep: 1916 ms for 2 collections, 30154784 used; max is 2044723200
+ INFO [MemoryMeter:1] 2013-10-12 15:34:28,947 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 32.16990592367553 (just-counted was 31.970617821955067).  calculation took 21779ms for 309069 columns
+ INFO [ScheduledTasks:1] 2013-10-12 15:50:22,661 GCInspector.java (line 119) GC for ConcurrentMarkSweep: 703 ms for 1 collections, 1571807368 used; max is 2044723200
+ WARN [ScheduledTasks:1] 2013-10-12 15:50:22,661 GCInspector.java (line 142) Heap is 0.7687140088203626 full.  You may need to reduce memtable and/or cache sizes.  Cassandra will now flush up to the two largest memtables to free up memory.  Adjust flush_largest_memtables_at threshold in cassandra.yaml if you don't want Cassandra to do this automatically
+ WARN [ScheduledTasks:1] 2013-10-12 15:50:22,662 StorageService.java (line 3594) Flushing CFS(Keyspace='LogData', ColumnFamily='User') to relieve memory pressure
+ INFO [ScheduledTasks:1] 2013-10-12 15:50:22,662 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-User@554104943(46748981/36700160 serialized/live bytes, 1807681 ops)
+ INFO [FlushWriter:4] 2013-10-12 15:50:23,080 Memtable.java (line 461) Writing Memtable-User@554104943(46748981/36700160 serialized/live bytes, 1807681 ops)
+ INFO [ScheduledTasks:1] 2013-10-12 15:50:28,084 GCInspector.java (line 119) GC for ParNew: 295 ms for 1 collections, 1421771896 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 15:50:30,086 GCInspector.java (line 119) GC for ParNew: 281 ms for 1 collections, 1465873128 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 15:50:32,088 GCInspector.java (line 119) GC for ParNew: 290 ms for 1 collections, 1545548448 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 15:50:34,091 GCInspector.java (line 119) GC for ParNew: 297 ms for 1 collections, 1627209016 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 15:50:36,093 GCInspector.java (line 119) GC for ParNew: 290 ms for 1 collections, 1718508104 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 15:50:37,285 GCInspector.java (line 119) GC for ParNew: 294 ms for 1 collections, 1595294968 used; max is 2044723200
+ INFO [FlushWriter:4] 2013-10-12 15:50:39,861 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/LogData/User/LogData-User-ic-2-Data.db (39718838 bytes) for commitlog position ReplayPosition(segmentId=1381604561315, position=3869071)
+ INFO [ScheduledTasks:1] 2013-10-12 15:50:42,038 GCInspector.java (line 119) GC for ConcurrentMarkSweep: 1650 ms for 2 collections, 31027160 used; max is 2044723200
+ INFO [MemoryMeter:1] 2013-10-12 15:59:08,584 Memtable.java (line 238) CFS(Keyspace='LogData', ColumnFamily='User') liveRatio is 32.03897240050164 (just-counted was 31.90803887732775).  calculation took 42706ms for 613267 columns
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:35,004 GCInspector.java (line 119) GC for ConcurrentMarkSweep: 741 ms for 1 collections, 1590904408 used; max is 2044723200
+ WARN [ScheduledTasks:1] 2013-10-12 16:11:35,004 GCInspector.java (line 142) Heap is 0.7780536788549178 full.  You may need to reduce memtable and/or cache sizes.  Cassandra will now flush up to the two largest memtables to free up memory.  Adjust flush_largest_memtables_at threshold in cassandra.yaml if you don't want Cassandra to do this automatically
+ WARN [ScheduledTasks:1] 2013-10-12 16:11:35,005 StorageService.java (line 3594) Flushing CFS(Keyspace='LogData', ColumnFamily='User') to relieve memory pressure
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:35,005 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-User@759989402(46814397/36700160 serialized/live bytes, 1809256 ops)
+ INFO [FlushWriter:5] 2013-10-12 16:11:35,394 Memtable.java (line 461) Writing Memtable-User@759989402(46814397/36700160 serialized/live bytes, 1809256 ops)
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:39,705 GCInspector.java (line 119) GC for ParNew: 489 ms for 2 collections, 1372103568 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:43,709 GCInspector.java (line 119) GC for ParNew: 307 ms for 1 collections, 1503668856 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:45,711 GCInspector.java (line 119) GC for ParNew: 292 ms for 1 collections, 1564310496 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:47,713 GCInspector.java (line 119) GC for ParNew: 289 ms for 1 collections, 1601054592 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:49,716 GCInspector.java (line 119) GC for ParNew: 293 ms for 1 collections, 1658197128 used; max is 2044723200
+ INFO [FlushWriter:5] 2013-10-12 16:11:51,591 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/LogData/User/LogData-User-ic-3-Data.db (39698183 bytes) for commitlog position ReplayPosition(segmentId=1381604561321, position=6536189)
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,013 GCInspector.java (line 119) GC for ConcurrentMarkSweep: 1105 ms for 1 collections, 31219104 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,016 StatusLogger.java (line 53) Pool Name                    Active   Pending   Blocked
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,028 StatusLogger.java (line 68) ReadStage                         0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,028 StatusLogger.java (line 68) RequestResponseStage              0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,029 StatusLogger.java (line 68) ReadRepairStage                   0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,030 StatusLogger.java (line 68) MutationStage                     1        -1         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,030 StatusLogger.java (line 68) ReplicateOnWriteStage             0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,031 StatusLogger.java (line 68) GossipStage                       0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,032 StatusLogger.java (line 68) AntiEntropyStage                  0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,032 StatusLogger.java (line 68) MigrationStage                    0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,033 StatusLogger.java (line 68) MemtablePostFlusher               0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,033 StatusLogger.java (line 68) FlushWriter                       0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,034 StatusLogger.java (line 68) MiscStage                         0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,034 StatusLogger.java (line 68) commitlog_archiver                0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,035 StatusLogger.java (line 68) InternalResponseStage             0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,035 StatusLogger.java (line 68) HintedHandoff                     0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,036 StatusLogger.java (line 73) CompactionManager                 0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,037 StatusLogger.java (line 85) MessagingService                n/a       0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,037 StatusLogger.java (line 95) Cache Type                     Size                 Capacity               KeysToSave                                                         Provider
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,037 StatusLogger.java (line 96) KeyCache                        296                101711872                      all                                                                 
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,038 StatusLogger.java (line 102) RowCache                          0                        0                      all              org.apache.cassandra.cache.SerializingCacheProvider
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,038 StatusLogger.java (line 109) ColumnFamily                Memtable ops,data
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,038 StatusLogger.java (line 112) system.local                            22,52
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,039 StatusLogger.java (line 112) system.peers                         18,14560
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,039 StatusLogger.java (line 112) system.batchlog                           0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,039 StatusLogger.java (line 112) system.NodeIdInfo                         0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,039 StatusLogger.java (line 112) system.LocationInfo                       0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,040 StatusLogger.java (line 112) system.Schema                             0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,040 StatusLogger.java (line 112) system.Migrations                         0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,040 StatusLogger.java (line 112) system.schema_keyspaces                   0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,040 StatusLogger.java (line 112) system.schema_columns                     0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,040 StatusLogger.java (line 112) system.schema_columnfamilies                 0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,041 StatusLogger.java (line 112) system.IndexInfo                          0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,041 StatusLogger.java (line 112) system.range_xfers                        0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,041 StatusLogger.java (line 112) system.peer_events                        0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,041 StatusLogger.java (line 112) system.hints                              0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,042 StatusLogger.java (line 112) system.HintsColumnFamily                  0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,042 StatusLogger.java (line 112) system_auth.users                         0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,042 StatusLogger.java (line 112) system_traces.sessions                    0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,042 StatusLogger.java (line 112) system_traces.events                      0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,043 StatusLogger.java (line 112) LogData.output                            0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:11:54,043 StatusLogger.java (line 112) LogData.User                    23563,1048576
+ INFO [ScheduledTasks:1] 2013-10-12 16:32:41,372 GCInspector.java (line 119) GC for ConcurrentMarkSweep: 760 ms for 1 collections, 1598557432 used; max is 2044723200
+ WARN [ScheduledTasks:1] 2013-10-12 16:32:41,373 GCInspector.java (line 142) Heap is 0.7817964954865284 full.  You may need to reduce memtable and/or cache sizes.  Cassandra will now flush up to the two largest memtables to free up memory.  Adjust flush_largest_memtables_at threshold in cassandra.yaml if you don't want Cassandra to do this automatically
+ WARN [ScheduledTasks:1] 2013-10-12 16:32:41,374 StorageService.java (line 3594) Flushing CFS(Keyspace='LogData', ColumnFamily='User') to relieve memory pressure
+ INFO [ScheduledTasks:1] 2013-10-12 16:32:41,374 ColumnFamilyStore.java (line 631) Enqueuing flush of Memtable-User@955475873(46755753/36700160 serialized/live bytes, 1806962 ops)
+ INFO [FlushWriter:6] 2013-10-12 16:32:41,785 Memtable.java (line 461) Writing Memtable-User@955475873(46755753/36700160 serialized/live bytes, 1806962 ops)
+ INFO [ScheduledTasks:1] 2013-10-12 16:32:46,789 GCInspector.java (line 119) GC for ParNew: 295 ms for 1 collections, 1477489184 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:32:48,791 GCInspector.java (line 119) GC for ParNew: 282 ms for 1 collections, 1545532744 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:32:50,066 GCInspector.java (line 119) GC for ParNew: 290 ms for 1 collections, 1431718672 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:32:52,068 GCInspector.java (line 119) GC for ParNew: 294 ms for 1 collections, 1494476216 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:32:54,070 GCInspector.java (line 119) GC for ParNew: 292 ms for 1 collections, 1562323360 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:32:56,072 GCInspector.java (line 119) GC for ParNew: 297 ms for 1 collections, 1635816832 used; max is 2044723200
+ INFO [FlushWriter:6] 2013-10-12 16:32:58,209 Memtable.java (line 495) Completed flushing /var/work/edede1/cassandra/lib/data/LogData/User/LogData-User-ic-4-Data.db (40520647 bytes) for commitlog position ReplayPosition(segmentId=1381604561327, position=8946038)
+ INFO [CompactionExecutor:38] 2013-10-12 16:32:58,218 CompactionTask.java (line 105) Compacting [SSTableReader(path='/var/work/edede1/cassandra/lib/data/LogData/User/LogData-User-ic-3-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/LogData/User/LogData-User-ic-4-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/LogData/User/LogData-User-ic-2-Data.db'), SSTableReader(path='/var/work/edede1/cassandra/lib/data/LogData/User/LogData-User-ic-1-Data.db')]
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,708 GCInspector.java (line 119) GC for ConcurrentMarkSweep: 2063 ms for 2 collections, 32920184 used; max is 2044723200
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,709 StatusLogger.java (line 53) Pool Name                    Active   Pending   Blocked
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,710 StatusLogger.java (line 68) ReadStage                         0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,712 StatusLogger.java (line 68) RequestResponseStage              0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,713 StatusLogger.java (line 68) ReadRepairStage                   0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,714 StatusLogger.java (line 68) MutationStage                     0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,714 StatusLogger.java (line 68) ReplicateOnWriteStage             0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,715 StatusLogger.java (line 68) GossipStage                       0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,715 StatusLogger.java (line 68) AntiEntropyStage                  0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,716 StatusLogger.java (line 68) MigrationStage                    0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,716 StatusLogger.java (line 68) MemtablePostFlusher               0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,717 StatusLogger.java (line 68) FlushWriter                       0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,717 StatusLogger.java (line 68) MiscStage                         0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,718 StatusLogger.java (line 68) commitlog_archiver                0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,718 StatusLogger.java (line 68) InternalResponseStage             0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,719 StatusLogger.java (line 68) HintedHandoff                     0         0         0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,719 StatusLogger.java (line 73) CompactionManager                 1         1
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,719 StatusLogger.java (line 85) MessagingService                n/a       0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,720 StatusLogger.java (line 95) Cache Type                     Size                 Capacity               KeysToSave                                                         Provider
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,720 StatusLogger.java (line 96) KeyCache                        296                101711872                      all                                                                 
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,720 StatusLogger.java (line 102) RowCache                          0                        0                      all              org.apache.cassandra.cache.SerializingCacheProvider
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,720 StatusLogger.java (line 109) ColumnFamily                Memtable ops,data
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,721 StatusLogger.java (line 112) system.local                            22,52
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,721 StatusLogger.java (line 112) system.peers                         18,14560
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,721 StatusLogger.java (line 112) system.batchlog                           0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,721 StatusLogger.java (line 112) system.NodeIdInfo                         0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,721 StatusLogger.java (line 112) system.LocationInfo                       0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,722 StatusLogger.java (line 112) system.Schema                             0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,722 StatusLogger.java (line 112) system.Migrations                         0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,722 StatusLogger.java (line 112) system.schema_keyspaces                   0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,722 StatusLogger.java (line 112) system.schema_columns                     0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,723 StatusLogger.java (line 112) system.schema_columnfamilies                 0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,723 StatusLogger.java (line 112) system.IndexInfo                          0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,723 StatusLogger.java (line 112) system.range_xfers                        0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,723 StatusLogger.java (line 112) system.peer_events                        0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,723 StatusLogger.java (line 112) system.hints                              0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,724 StatusLogger.java (line 112) system.HintsColumnFamily                  0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,724 StatusLogger.java (line 112) system_auth.users                         0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,724 StatusLogger.java (line 112) system_traces.sessions                    0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,724 StatusLogger.java (line 112) system_traces.events                      0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,724 StatusLogger.java (line 112) LogData.output                            0,0
+ INFO [ScheduledTasks:1] 2013-10-12 16:33:00,725 StatusLogger.java (line 112) LogData.User                    23090,1048576
+ INFO [CompactionExecutor:38] 2013-10-12 16:34:42,655 CompactionTask.java (line 262) Compacted 4 sstables to [/var/work/edede1/cassandra/lib/data/LogData/User/LogData-User-ic-5,].  160,272,764 bytes to 158,223,388 (~98% of original) in 104,436ms = 1.444843MB/s.  7,228,008 total rows, 7,228,008 unique.  Row merge counts were {1:7228008, 2:0, 3:0, 4:0, }
